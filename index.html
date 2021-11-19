@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <div class="container-fluid main">
+        <header class="header-nav" id="header-nav">
+            <div class="row nav-flex">
+                <div class="s-logo col">
+                    <a class="nav1" href="https://www.squarespace.com/">
+                        <span class="logo1"><i class="fab fa-squarespace"></i>
+                            <p class="Square-text m-0 p-2">SQUARESPACE</p>
+                        </span>
+                    </a>
+                </div>
+                <div class="menu-bar col">
+                    <div class="menu-bar-flex row">
+                        <button class="products col" onmouseover="procon()" onmouseout="proconclose()">
+                            <span class="prod-text">PRODUCTS</span>
+                            <div class="logo-down"><i class="fas fa-chevron-down"></i></div>
+                        </button>
+                        <a href="#" class="col tem">TEMPLATES</a>
+                        <button class="resources products col" onmouseover="rescon()" onmouseout="resconclose()">
+                            <span class="res-text">RESOURCES</span>
+                            <div class="logo-down"><i class="fas fa-chevron-down"></i></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="acc col">
+                    <div class="acc-flex row">
+                        <div class="login"><a href="#">LOG IN</a></div>
+                        <button type="button" class=" get-btn">GET STARTED</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menu-products-hover" id="menu-products-hover">
+            <div class="row products-menu pt-5">
+                <div class="col">
+                    <h6>CREATE A WEBSITE</h6>
+                    <div class="web-list">
+                        <a href="#" class="options">Overview
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Award-Winning Templates
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Bloging
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Portfolios
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Website Analytics
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Connected Services
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Hire an Expert
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Enterprise Solutions
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>SELL ANYTHING</h6>
+                    <div class="web-list">
+                        <a href="#" class="options">Overview
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Ecommerce Templates
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Sell Products
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Sell Services
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Schedule Appointments
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Checkout, Payment, & Taxes
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Member AreasNew
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Extensions
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Restaurants & HospitalityNew
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>BUILD YOUR BRAND</h6>
+                    <div class="web-list">
+                        <a href="#" class="options">Overview
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Email Marketing
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">SEO Tools
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Social Media Tools
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Video Maker
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>GET A DOMAIN</h6>
+                    <div class="web-list">
+                        <a href="#" class="options">Find a Domain
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#" class="options">Transfer a Domain
+                            <span class="right-arrow"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-resoure-hover menu-products-hover" id="menu-resoure-hover">
+            <div class="row">
+                <div class="col">
+                    <a href="#" onmouseover="imgview()" onmouseout="imgviewclose()" class="options options-align">
+                        <h3>Made with Squarespace<span class="res-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <hr>
+                        </h3>
+                    </a>
+                    <a href="#" onmouseover="imgview1()" class="options options-align size">
+                        <h3>Squarespace Blog<span class="res-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <hr>
+                        </h3>
+                    </a>
+                    <a href="#" onmouseover="imgview2()" class="options options-align size1">
+                        <h3>Help Center<span class="res-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <hr>
+                        </h3>
+                    </a>
+                    <a href="#" onmouseover="imgview3()" class="options options-align size2">
+                        <h3>Forum<span class="res-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <hr>
+                        </h3>
+                    </a>
+                    <a href="#" onmouseover="imgview4()" class="options options-align size3">
+                        <h3>Webinars<span class="res-arrow"><i class="fas fa-arrow-right rotate-arrow"></i></span>
+                            <hr>
+                        </h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="imgs">
+                        <div class="img-hover" id="one" style="display: block;">
+                            <img class="imgs-align"
+                                src="https://media-www.sqspcdn.com/images/site-navigation/customer-examples-2-1000w.jpg"
+                                alt="">
+                        </div>
+                        <div class="img-hover" id="two">
+                            <img class="imgs-align"
+                                src="https://media-www.sqspcdn.com/images/site-navigation/blog-2-1000w.jpg" alt="">
+                        </div>
+                        <div class="img-hover" id="three">
+                            <img class="imgs-align"
+                                src="https://media-www.sqspcdn.com/images/site-navigation/help-2-1000w.jpg" alt="">
+                        </div>
+                        <div class="img-hover" id="four">
+                            <img class="imgs-align"
+                                src="https://media-www.sqspcdn.com/images/site-navigation/forum-2-1000w.jpg" alt="">
+                        </div>
+                        <div class="img-hover" id="five">
+                            <img class="imgs-align"
+                                src="https://media-www.sqspcdn.com/images/site-navigation/webinars-2-1000w.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="hero-sec" id="hero-sec">
+            <div class="text">
+                <h1>Everything to sell anything.</h1>
+                <p class="hero-text-p">
+                    <span>Start your free website trial today.</span>
+                    <span>No credit card required.</span>
+                </p>
+                <a href="#" class="get-btn1">
+                    <span class="link-text">GET STARTED &nbsp;→</span>
+                </a>
+            </div>
+        </section>
+        <section class="hero-sec1" id="hero-sec1">
+            <div class="hero-img-load">
+                <div class="center-img" onload="imgscrol()">
+                </div>
+            </div>
+        </section>
+        <section class="hero-sec2" id="hero-sec2">
+            <div class="hero-videos">
+                <a href="#" class="video-link">
+                    <div class="Side-bar-video"></div>
+                    <div class="Side-bar-video"></div>
+                    <div class="Side-bar-video"></div>
+                    <div class="Side-bar-video"></div>
+                    <div class="Side-bar-video"></div>
+                    <span class="play"><i class="fas fa-play"></i></span>
+                </a>
+                <p class="video-text">
+                    Squarespace has evolved to be everything you need to sell anything.
+                </p>
+                <a href="#" class="side-link">
+                    <h4>WATCH THE ANNOUNCEMENT<span class="side-arrow"><i class="fas fa-arrow-right"></i></span>
+                        <hr class="hr">
+                    </h4>
+                </a>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid sec2">
+        <div class="step-header">
+            <h2 class="step-heading">
+                <span class="step-head-text">GROW YOUR</span>
+                <span class="step-head-text">BUSINESS</span>
+                <span class="step-head-text">ONLINE</span>
+            </h2>
+        </div>
+        <div class="row video-container">
+            <div class="col">
+                <div class="step-video">
+                    <video playsinline muted loop autoplay style="width: 500px;" controls>
+                        <source
+                            src="https://media-www.sqspcdn.com/images/pages/homepage-refresh-2021/steps/steps-animation-3.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="step-list">
+                    <ul class="step-ul">
+                        <li class="step-list-text">
+                            <span class="step-index">1</span>
+                            <div class="step-content">
+                                <h6 class="step-title">Create a website</h6>
+                                <p class="step-description">
+                                    Select from any of our industry-leading website templates, designer fonts, and color
+                                    palettes that best fit your personal style and professional needs.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="step-list-text">
+                            <span class="step-index">2</span>
+                            <div class="step-content">
+                                <h6 class="step-title">Sell anything</h6>
+                                <p class="step-description">
+                                    Explore which tools you want to add—whether it’s setting up an online store, booking
+                                    services, or adding your favorite third-party extensions.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="step-list-text">
+                            <span class="step-index">3</span>
+                            <div class="step-content">
+                                <h6 class="step-title">Market your business</h6>
+                                <p class="step-description">
+                                    Stand out in every inbox and social feed. On-brand email campaigns and social tools
+                                    make it easy to retain customers and grow your audience.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="link-btn">
+                        <a href="#" class="link-a">
+                            <span class="link-btn-text">
+                                GET STARTED <aside><i class="fas fa-arrow-right"></i></aside>
+                            </span>
+                            <hr class="hr-black">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function procon() {
+            document.getElementById("menu-products-hover").style.display = "block";
+            document.getElementById("header-nav").style.backgroundColor = "#333";
+        }
+
+        function proconclose() {
+            document.getElementById("menu-products-hover").style.display = "none";
+            document.getElementById("header-nav").style.backgroundColor = "transparent";
+
+        }
+
+        function rescon() {
+            document.getElementById("menu-resoure-hover").style.display = "block";
+            document.getElementById("header-nav").style.backgroundColor = "#333";
+
+        }
+
+        function resconclose() {
+            document.getElementById("menu-resoure-hover").style.display = "none";
+            document.getElementById("header-nav").style.backgroundColor = "transparent";
+
+        }
+
+        function imgview() {
+            document.getElementById("one").style.display = "block";
+            document.getElementById("two").style.display = "none";
+            document.getElementById("three").style.display = "none";
+            document.getElementById("four").style.display = "none";
+            document.getElementById("five").style.display = "none";
+        }
+
+        function imgview1() {
+            document.getElementById("one").style.display = "none";
+            document.getElementById("two").style.display = "block";
+            document.getElementById("three").style.display = "none";
+            document.getElementById("four").style.display = "none";
+            document.getElementById("five").style.display = "none";
+        }
+
+        function imgview2() {
+            document.getElementById("one").style.display = "none";
+            document.getElementById("two").style.display = "none";
+            document.getElementById("three").style.display = "block";
+            document.getElementById("four").style.display = "none";
+            document.getElementById("five").style.display = "none";
+        }
+
+        function imgview3() {
+            document.getElementById("one").style.display = "none";
+            document.getElementById("two").style.display = "none";
+            document.getElementById("three").style.display = "none";
+            document.getElementById("four").style.display = "block";
+            document.getElementById("five").style.display = "none";
+        }
+
+        function imgview4() {
+            document.getElementById("one").style.display = "none";
+            document.getElementById("two").style.display = "none";
+            document.getElementById("three").style.display = "none";
+            document.getElementById("four").style.display = "none";
+            document.getElementById("five").style.display = "block";
+        }
+
+        function imgviewclose() {
+            document.getElementById("one").style.display = "block";
+            document.getElementById("two").style.display = "none";
+            document.getElementById("three").style.display = "none";
+            document.getElementById("four").style.display = "none";
+            document.getElementById("five").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
